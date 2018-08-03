@@ -1,0 +1,23 @@
+
+<header class="container-fluid">
+
+	<nav class="  grey darken-4 ">
+
+		<div class="nav-wrapper container">
+			<a class="brand-logo" href="{{site.baseurl}} /"> &#60;Blog Fziliotti&#62; </a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				{% for page in site.pages %}
+				<li><a href="{{page.url | prepend: site.baseurl}}"> {{page.title}}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</nav>
+
+	<ul class="sidenav" id="mobile-demo">
+		{% for page in site.pages %}
+		<li><a href="{{page.url | prepend: site.baseurl}}"> {{page.title}}</a></li>
+		{% endfor %}
+	</ul>
+
+</header>

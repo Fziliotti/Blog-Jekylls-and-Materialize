@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Fabricio Ziliotti">
+  <meta name="robots" content="index">
+  <meta name="googlebot" content="index" />
+  <meta name="language" content="portuguese" />
+  <meta name="google" content="translate" />
+  <meta name="theme-color" content="#333333">
+
+  <meta name="description" content="{% if page.description %} {{page.description}} {% else %} {{site.description}} {% endif %}">
+  <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %} </title>
+ 
+  <!-- PEGA O CSS QUE É GERADO APOS COMPILAR O SASS -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | preprend: site.baseurl}}">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> -->
+
+
+
+</head>
+
+
+
