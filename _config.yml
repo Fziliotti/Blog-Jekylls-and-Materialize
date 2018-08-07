@@ -16,7 +16,7 @@
 title: blog Jekyll with Materialize
 email: ffz.ziliotti@gmail.com
 description: "blog jekyll with framework Materialize"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://github.com/Fziliotti" # the subpath of your site, e.g. /blog
 url: "http://fziliotti.esy.es/" # the base hostname & protocol for your site, e.g. http://example.com
 
 url_github: https://github.com/Fziliotti
