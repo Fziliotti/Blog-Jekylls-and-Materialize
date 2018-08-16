@@ -3,6 +3,7 @@ layout: post
 title:  "Segundo post"
 date:   2018-08-02 00:36:56 -0300
 categories: TEste
+tipoDeCard: card-variedade
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo ipsa, molestiae harum aliquam modi deleniti aperiam atque error laboriosam voluptates cum quibusdam in sunt doloribus tempora quaerat consequatur adipisci?
 ---
 
